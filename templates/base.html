@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>My Fabulous Blog</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            body {
+                margin: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/newpost">New Post</a></li>
+            </ul>
+        </nav>
+
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
